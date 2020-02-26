@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="TrafficLight">
+        <attr name="exampleString" format="string" />
+
+        <attr name="lightSize" format="dimension" />
+        <attr name="lightTextSize" format="dimension" />
+        <attr name="lightBackgroundColor" format="color" />
+        <attr name="lightTextColor" format="color" />
+
+
+
+    </declare-styleable>
+</resources>

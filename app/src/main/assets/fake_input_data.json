@@ -1,0 +1,139 @@
+[
+  {
+    "distance": "15.14",
+    "name": "Cooke Court, Johnson City, TN",
+    "alerts": [
+      {
+        "level": "critical",
+        "message": "light no functioning"
+      }
+    ],
+    "lanes": [
+      {
+        "laneId": 1,
+        "laneDirections": [
+          {
+            "phase": {
+              "color": "red",
+              "duration": 4,
+              "activeStatus": "active"
+            },
+            "speedRecommendations": {
+              "minSpeed": 9,
+              "maxSpeed": 8,
+              "avgSpeed": 22
+            },
+            "direction": "straight"
+          }
+        ]
+      },
+      {
+        "laneId": 2,
+        "laneDirections": [
+          {
+            "phase": {
+              "color": "green",
+              "duration": 2,
+              "activeStatus": "active"
+            },
+            "speedRecommendations": {
+              "minSpeed": 23,
+              "maxSpeed": 21,
+              "avgSpeed": 13
+            },
+            "direction": "right"
+          },
+          {
+            "phase": {
+              "color": "green",
+              "duration": 5,
+              "activeStatus": "active"
+            },
+            "speedRecommendations": {
+              "minSpeed": 22,
+              "maxSpeed": 9,
+              "avgSpeed": 14
+            },
+            "direction": "left"
+          }
+        ]
+      }
+
+
+    ]
+  },
+  {
+    "distance": "19.55",
+    "name": "Matthews Place, Johnson City, TN",
+    "alerts": [
+      {
+        "level": "critical",
+        "message": "light no functioning"
+      }
+    ],
+    "lanes": [
+      {
+        "laneId": 1,
+        "laneDirections": [
+          {
+            "phase": {
+              "color": "red",
+              "duration": 4,
+              "activeStatus": "active"
+            },
+            "speedRecommendations": {
+              "minSpeed": 17,
+              "maxSpeed": 26,
+              "avgSpeed": 22
+            },
+            "direction": "straight"
+          },
+          {
+            "phase": {
+              "color": "green",
+              "duration": 4,
+              "activeStatus": "active"
+            },
+            "speedRecommendations": {
+              "minSpeed": 25,
+              "maxSpeed": 25,
+              "avgSpeed": 23
+            },
+            "direction": "left"
+          }
+        ]
+      },
+      {
+        "laneId": 2,
+        "laneDirections": [
+          {
+            "phase": {
+              "color": "red",
+              "duration": 4,
+              "activeStatus": "active"
+            },
+            "speedRecommendations": {
+              "minSpeed": 16,
+              "maxSpeed": 14,
+              "avgSpeed": 6
+            },
+            "direction": "left"
+          },
+          {
+            "phase": {
+              "color": "green",
+              "duration": 1,
+              "activeStatus": "active"
+            },
+            "speedRecommendations": {
+              "minSpeed": 15,
+              "maxSpeed": 6,
+              "avgSpeed": 23
+            },
+            "direction": "left"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <TextView
+        android:id="@+id/SpeedRecommendation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        app:fontFamily="sans-serif-black"
+        android:background="@color/speedColor"
+        android:text="50 MPH"
+        android:textAppearance="@android:style/TextAppearance" />
+
+
+    <edu.etsu.glosa.glosa.ui.models.TrafficLight
+        android:id="@+id/TrafficLight"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+
+        >
+    </edu.etsu.glosa.glosa.ui.models.TrafficLight>
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="40dp"
+            android:id="@+id/Maneuver"
+            android:scaleType="centerInside"
+            android:contentDescription="Maneuvre"
+            android:src="@drawable/right" />
+
+
+
+</merge>
